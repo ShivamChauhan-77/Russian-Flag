@@ -1,0 +1,25 @@
+html,body{
+    margin:0;
+    padding:0;
+    background:lightgray;
+}
+.container{
+    height:200px;
+    width:calc(200px*3/2);
+    margin:2em auto;
+    /* display:grid; */
+    display:flex;
+    flex-direction:column;
+}
+.stripe{
+    flex-grow:1
+}
+.white{
+    background-color: white;
+}
+.blue{
+    background-color: blue;
+}
+.red{
+    background-color: red;
+}
